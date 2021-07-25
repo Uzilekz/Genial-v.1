@@ -1,5 +1,5 @@
 * {
-  padding: 10px;
+  padding: 0px;
   margin: 10px;
 }
 
@@ -8,41 +8,78 @@
   flex-flow: column nowrap;
 }
 
+/* ---------- Fonts ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* ----------- Header ---------- */
 .header {
-  background: #000;
+  background: url(../img/banner.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
   display: flex;
   flex-flow: column nowrap;
 }
 
+/* ----------- Header__Menu ---------- */
 .header__menu {
-  background: #52006A;
+  background: rgba(0, 0, 0, .2);
   display: flex;
   flex-flow: row nowrap;
-  height: 100px;
   align-items: center;
+  height: 60px;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
 }
 
-.header__menu__logo {
-  background: #CD113B;
+.header__menu__logo__img {
   flex: 1 1 auto;
+  width: 55px;
 }
 
+/* ----------- Header__Menu__Nav ---------- */
 .header__menu__nav {
-  background: #CD113B;
   flex: 5 1 auto;
 }
 
-.header__menu__social {
-  background: #CD113B;
-  flex: 1 1 auto;
+.header__menu__nav__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8em;
+  padding: 0 10px;
+  letter-spacing: 2px;
 }
 
-.header__banner {
+.header__menu__nav__link:hover {
+  color: #4b4b4b;
+}
+
+/* ----------- Header__Menu__Social ---------- */
+.header__menu__social {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.header__menu__social__logo__link {
+  text-transform: none;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0 5px;
+}
+
+.header__menu__social__logo__link {
+  color: #4b4b4b;
+}
+
+/* ----------- Header__Principal ---------- */
+.header__principal {
   background: #FF7600;
 }
 
-.header__banner__txt {
+.header__principal__txt {
   background: #FFA900;
 }
 
@@ -52,6 +89,7 @@
   display: flex;
 }
 
+/* ---------- Section__Articles ---------- */
 .section__articles {
   background: #21094E;
   flex: 2 1 auto;
@@ -69,7 +107,7 @@
   flex: 1 1 100%;
 }
 
-/* ---------- Aside --------- */
+/* ---------- Section__Aside --------- */
 .section__aside {
   background: #0CECDD;
   flex: 1 1 auto;
@@ -87,7 +125,7 @@
 }
 
 .footer__nav {
-  background: #206A5D;
+  background: #fde005;
   width: 300px;
 }
 
