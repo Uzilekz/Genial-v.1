@@ -70,7 +70,7 @@ body {
 .header__menu__social__logo__link {
   color: rgb(255, 255, 255);
   font-size: 1.2em;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 0 10px;
 }
 
@@ -281,6 +281,7 @@ body {
 }
 @media screen and (max-width: 500px) {
   .header__menu__nav__link {
+    padding: 10px;
     font-size: .8em;
   }
   .header__principal__txt {
@@ -290,7 +291,7 @@ body {
     flex-direction: column;
   }
   .section__articles__article__title {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   .section__aside {
     flex-direction: column;
