@@ -68,9 +68,10 @@ body {
 }
 
 .header__menu__social__logo__link {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 1.2em;
-  padding: 0 5px;
+  margin-top: 20px;
+  padding: 0 10px;
 }
 
 .header__menu__social__logo__link:hover {
@@ -279,6 +280,9 @@ body {
   }
 }
 @media screen and (max-width: 500px) {
+  .header__menu__nav__link {
+    font-size: .8em;
+  }
   .header__principal__txt {
     font-size: 1.1em;
   }
